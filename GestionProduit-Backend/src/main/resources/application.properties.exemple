@@ -17,6 +17,3 @@ server.port=8080
 # File Upload Size Limits (optional)
 spring.servlet.multipart.max-file-size=10MB
 spring.servlet.multipart.max-request-size=10MB
-
-# CORS Configuration (if needed)
-# Add your CORS settings here
