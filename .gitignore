@@ -1,28 +1,27 @@
-# Angular specific
-/dist/
-/out-tsc/
-/tmp/
-/coverage/
-/e2e/test-output/
-/.angular/
-.angular/
+# Backend - Java/Spring Boot
+GestionProduit-Backend/target/
+GestionProduit-Backend/.idea/
+GestionProduit-Backend/*.iml
+GestionProduit-Backend/.vscode/
+GestionProduit-Backend/.settings/
+GestionProduit-Backend/.project
+GestionProduit-Backend/.classpath
 
-# Node modules and dependency files
-/node_modules/
-/package-lock.json
-/yarn.lock
+# IMPORTANT: Ignore actual application.properties
+GestionProduit-Backend/src/main/resources/application.properties
+GestionProduit-Backend/src/main/resources/application-*.properties
+
+# Frontend - Angular/Node
+GestionProduit-Frontend/node_modules/
+GestionProduit-Frontend/dist/
+GestionProduit-Frontend/.angular/
+GestionProduit-Frontend/.vscode/
+GestionProduit-Frontend/*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
 
 # Environment files
-/.env
-
-# Angular CLI and build artefacts
-/.angular-cli.json
-/.ng/
-
-# TypeScript cache
-*.tsbuildinfo
-
-# Logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+.env
+*.env
