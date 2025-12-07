@@ -2,8 +2,10 @@
 
 A simple **full-stack web application** to manage products, built with **Spring Boot** for the backend and **Angular** for the frontend. This app allows users to **create, read, update, and delete (CRUD)** products with attributes like name, price, quantity, and image.
 
+![Screenshot 1](assets/screenshot.PNG)
+
 ---
-![Screenshot 1](assets/screenshot.png)
+
 
 ## Features
 
