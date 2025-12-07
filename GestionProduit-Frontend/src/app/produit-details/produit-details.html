@@ -1,0 +1,11 @@
+<div *ngIf="productId;else noProduct">
+    <h2>Details du produit avec l'ID :{{productId}}</h2>
+    <h3>Nom de Produit : {{productNom}}</h3>
+    <h3>Prix : {{productPrix}}</h3>
+    <h3>Quantite : {{productQuantite}}</h3>
+    <a routerLink="/products" class="btn btn-primary">Retour a la liste</a>
+
+</div>
+<ng-template #noProduct>
+    <p>Aucun produit selectionner</p>
+</ng-template>
